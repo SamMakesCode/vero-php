@@ -1,0 +1,22 @@
+{
+  "name": "samlittler/vero-php",
+  "description": "Modern library for handling, users and channels with Vero's communications platform.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Sam Littler",
+      "email": "samlittler57@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "guzzlehttp/guzzle": "^6.4",
+    "php": ">=7.1",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SamLittler\\Vero\\": "src/"
+    }
+  }
+}
